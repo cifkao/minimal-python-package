@@ -1,3 +1,6 @@
 [project]
 name = "project"
 version = "0.1.0"
+
+[tool.setuptools.packages.find]
+include = ["project"]
